@@ -1,0 +1,7 @@
+---
+applications:
+- name: cfll-finger-server
+  memory: 256M
+  domain: tcp.gcp.plausible.co
+  health-check-type: process
+
